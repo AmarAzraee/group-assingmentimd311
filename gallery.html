@@ -1,0 +1,317 @@
+<html>
+<head>
+    <head>
+      <link rel="icon" type="/images/icon" href="images/image-removebg-preview.png">
+        <style>
+        body {
+          background-image: url("images/backround\ images3.jpg");
+        }
+        </style>
+        </head>
+        
+    <style>
+        #div1 {
+          font-size:48px;
+        }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <body>
+        
+        <div id="div1" class="fa"></div>
+        
+        <script>
+        function chargebattery() {
+          var a;
+          a = document.getElementById("div1");
+          a.innerHTML = "&#xf244;";
+          setTimeout(function () {
+              a.innerHTML = "&#xf243;";
+            }, 1000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf242;";
+            }, 2000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf241;";
+            }, 3000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf240;";
+            }, 4000);
+        }
+        chargebattery();
+        setInterval(chargebattery, 5000);
+        </script>
+        
+        </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+    
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+  <a href="index.html">HOME</a>
+  <a href="about us.html">ABOUT US</a>
+  <a href="location.html">LOCATION</a>
+  <a href="news.html">NEWS</a>
+  <a href="gallery.html">GALLERY</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">≡ MENU</button>  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  -ms-flex: 50%; 
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1 style="color: rgb(248, 245, 241);">GALLERY</h1>
+  <p style="color: azure;">Click on the buttons to change the grid view.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/8 Stadiums of FIFA World Cup Qatar 2022.jpg" style="width:100%">
+    <img src="images/Cr7.jpg" style="width:100%">
+    <img src="images/download-_6_.jpg" style="width:100%">
+    <img src="images/download-_7_.jpg" style="width:100%">
+    <img src="images/England football.jpg" style="width:100%">
+    <img src="images/fifa world cup 2022 opening ceremony.jpg" style="width:100%">
+    <img src="images/FIFA World Cup Qatar 2022_ Japan vs Spain.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/FIFA-World-Cup-Qatar-2022-Logo-Revealed.jpg" style="width:100%">
+    <img src="images/FIFA-World-Cup-Qatar-2022.jpg" style="width:100%">
+    <img src="images/France.jpg" style="width:100%">
+    <img src="images/gambar fifa 3.jpg" style="width:100%">
+    <img src="images/Hakimi _ Mbappé 4K.jpg" style="width:100%">
+    <img src="images/gambar fifa.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="images/gambar fifa2.jpg" style="width:100%">
+    <img src="images/Gavi.jpg" style="width:100%">
+    <img src="images/Hakim-Ziyech-Wallpaper.jpg" style="width:100%">
+    <img src="images/Hakimi _ Mbappé 4K.jpg" style="width:100%">
+    <img src="images/Happy_World_Cup_day_🤩🏆_Al_Bayt_Stadium_🏟_Fifa_fifaworldcup2022_photooftheday.jpg" style="width:100%">
+    <img src="images/Jude Bellingham and Mason mount.jpg" style="width:100%">
+    <img src="images/Khalifa international stadium ! Qatar vsco vscocam.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/Kylian Mbappé Wallpaper.jpg" style="width:100%">
+    <img src="images/Lionel-Messi-Wallpaper.jpg" style="width:100%">
+    <img src="images/Living-the-dream-__.jpg" style="width:100%">
+    <img src="images/Mason Mount.jpg" style="width:100%">
+    <img src="images/Mbappe.jpg" style="width:100%">
+    <img src="images/Neymar Wallpaper.jpg" style="width:100%">
+  </div>
+</div>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<audio src="Audio/fifa-2010.mp3" autoplay loop></audio>
+
+<br>
+  <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+  <!--footer section start-->
+<hr>
+  <center><h3 style="color: antiquewhite;">CONTACT US</h3></center>
+
+  <center><a href="https://www.facebook.com/fifa"> <img src="images/facebook.png" style="width: 40;"></a>  <a href="https://www.instagram.com/fifaworldcup/"> <img src="images/instagram.png" style="width: 40;"></a><a href="https://www.youtube.com/FIFATV"> <img src="images/youtube.png" style="width: 40;"></a>
+    <a href="https://twitter.com/FIFAcom"> <img src="images/twitter.png" style="width: 40;"></a><a href="https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2Flogin.php&domain=.weibo.com&sudaref=https%3A%2F%2Fpassport.weibo.com%2F&ua=php-sso_sdk_client-0.6.36&_rand=1675609756.5124"> <img src="images/sina-weibo.png" style="width: 40;"></a></center>
+<br>
+<br>
+    <center><h3 style="color: antiquewhite;">FIFA PARTNERS</h3></center>
+
+  <center><a href="https://www.adidas.co.uk/football"> <img src="images/Adidas-Logo.png" style="width: 50;"></a>  <a href="https://www.coca-cola.com/"> <img src="images/Coca-Cola-Logo.png" style="width: 50;"></a><a href="https://www.wanda-group.com/"> <img src="images/wanda-logo.png" style="width: 50;"></a>
+    <a href="https://www.fifa.com/about-fifa/commercial/partners/hundai-kia-motors"> <img src="images/hyundai-logo.png" style="width: 50;"></a><a href="https://www.qatarairways.com/en-dk/homepage.html"> <img src="images/Qatar-Airways-Emblem.png" style="width: 50;"></a>
+  <a href="https://www.qatarenergy.qa/en/Pages/Home.aspx"> <img src="images/image-removebg-preview (1).png" style="width: 50;"></a><a href="https://www.visa.com.my/"> <img src="images/visa-logo.png" style="width: 50;"></a></center>
+
+
+
+
+<hr>
+  <!--footer section end-->
+
+</body>
+</html>
